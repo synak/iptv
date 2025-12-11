@@ -35,7 +35,7 @@ Processing options:
 ```
 Example:
 
-Filter an EPG file using a M3U while setting date ranges (yesterday to +7 days), writing only the essential EPG output (excludes description, rating, etc. tags)
+Filter an EPG file using a M3U while setting date ranges (yesterday to +7 days), writing only the essential EPG output (excludes description, rating, etc. tags). Useful for when you have a pre-filtered m3u using a tool such as m3u-editor and not the entire feed from the provider.
   
 ```python parse_epg.py -i epg.xml -o filtered_epg.xml -m playlist.m3u -dp 1 -df 7 --basic```
 
