@@ -39,7 +39,8 @@ Filter an EPG file using a M3U while setting date ranges (yesterday to +7 days),
   
 ```python parse_epg.py -i epg.xml -o filtered_epg.xml -m playlist.m3u -dp 1 -df 7 --basic```
 
-
+------------
+------------
 
 ## parse_m3u.py
 
